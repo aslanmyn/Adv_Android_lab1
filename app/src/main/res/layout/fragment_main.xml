@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainFragment"
+    tools:context=".fragments.MainFragment">
+
+    <Button
+        android:id="@+id/instagram"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Share to Instagram"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/music"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Music Player"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/instagram" />
+
+    <Button
+        android:id="@+id/airplane"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Airplane Mode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/music" />
+
+    <Button
+        android:id="@+id/calendar"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Calendar Events"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/airplane"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
