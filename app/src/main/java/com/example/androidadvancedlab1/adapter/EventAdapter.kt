@@ -17,6 +17,9 @@ class EventAdapter : RecyclerView.Adapter<EventAdapter.EventViewHolder>() {
         this.events = events
         notifyDataSetChanged()
     }
+    fun ser(){
+
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): EventViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(android.R.layout.simple_list_item_2, parent, false)
@@ -38,3 +41,4 @@ class EventAdapter : RecyclerView.Adapter<EventAdapter.EventViewHolder>() {
         }
     }
 }
+// Это
